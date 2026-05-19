@@ -22,12 +22,12 @@ print("="*80)
 print("\n[1] Loading datasets...")
 
 # Load Fear & Greed Index
-sentiment_df = pd.read_csv("fear_greed_index.csv")
+sentiment_df = pd.read_csv("data/fear_greed_index.csv")
 print(f"✓ Sentiment data loaded: {sentiment_df.shape}")
 print(f"  Columns: {list(sentiment_df.columns)}")
 
 # Load Hyperliquid trader data
-trades_df = pd.read_csv("historical_data.csv")
+trades_df = pd.read_csv("data/historical_data.csv")
 print(f"✓ Trader data loaded: {trades_df.shape}")
 print(f"  Columns: {list(trades_df.columns)}")
 
