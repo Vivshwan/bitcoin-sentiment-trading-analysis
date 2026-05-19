@@ -28,6 +28,40 @@ Traders perform **40-60% better during Greed markets** with **15-25% higher win 
 - Trading strategy playbook
 ---
 
+---
+
+## 📥 Download Datasets   
+
+The datasets are hosted on Google Drive. Download them before running the analysis:
+
+### Dataset 1: Fear & Greed Index
+- **Link:** [Click to Download](https://drive.google.com/file/d/1PgQC0tO8XN-wqkNyghWc_-mnrYv_nhSf/view?usp=sharing)
+- **Filename:** `fear_greed_index.csv`
+- **Description:** Bitcoin Fear & Greed Index with daily sentiment scores
+
+### Dataset 2: Hyperliquid Trader Data
+- **Link:** [Click to Download](https://drive.google.com/file/d/1IAfLZwu6rJzyWKgBToqwSmmVYU6VbjVs/view?usp=sharing)
+- **Filename:** `historical_data.csv`
+- **Description:** Historical trader data from Hyperliquid DEX
+
+### Setup Instructions
+# 1. Download both CSV files from the links above
+
+# 2. Create a 'data' folder in the project root
+mkdir data
+
+# 3. Move both CSV files into the 'data' folder
+
+# 4. Verify files are in place
+ls data/
+# Should show:
+# fear_greed_index.csv
+# historical_trader_data.csv
+
+# 5. Run the analysis
+python scripts/sentiment_analysis.py
+
+
 ## 🔧 Installation
 
 ### Prerequisites
