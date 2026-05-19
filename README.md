@@ -45,20 +45,19 @@ The datasets are hosted on Google Drive. Download them before running the analys
 - **Description:** Historical trader data from Hyperliquid DEX
 
 ### Setup Instructions
-# 1. Download both CSV files from the links above
+1. Download both CSV files from the links above
 
-# 2. Create a 'data' folder in the project root
-mkdir data
+2. Create a 'data' folder in the project root
 
-# 3. Move both CSV files into the 'data' folder
+3. Move both CSV files into the 'data' folder
 
-# 4. Verify files are in place
+4. Verify files are in place
 ls data/
-# Should show:
-# fear_greed_index.csv
-# historical_trader_data.csv
+Should show:
+fear_greed_index.csv
+historical_trader_data.csv
 
-# 5. Run the analysis
+5. Run the analysis
 python scripts/sentiment_analysis.py
 
 
