@@ -4,6 +4,16 @@
 
 This project analyzes the relationship between Bitcoin's Fear & Greed Index and actual trader performance on Hyperliquid DEX. By merging on-chain trading data with sentiment metrics, we uncover actionable patterns that can improve trading strategy returns by 25-40%.
 
+## ✨ Live Dashboard
+
+The project includes an **interactive Flask web dashboard** to visualize the analysis results:
+
+- 📊 Real-time statistics cards
+- 📈 Interactive charts (PnL comparison, win rates)
+- 🥧 Trade distribution pie chart
+- 📋 Recent trades table with sentiment labels
+- 🖼️ Analysis visualization dashboard
+
 ## 📊 What This Project Does
 
 - ✅ Merges 10,000+ trades with daily Fear/Greed sentiment
@@ -18,9 +28,9 @@ Traders perform **40-60% better during Greed markets** with **15-25% higher win 
 
 ## 🔧 Built With
 
-- Python 3.8+ | Pandas | NumPy | Matplotlib | Seaborn | SciPy
+- Python 3.8+ | Pandas | NumPy | Matplotlib | Seaborn | SciPy | Flask
 
-## 📈 Output
+## 📈 Output 
 
 - Visualization dashboard (4 plots)
 - CSV exports with sentiment-labeled trades
@@ -80,3 +90,6 @@ pip install -r requirements.txt
 
 # 4. Run the analysis
 python sentiment_analysis.py
+
+# 5. Launch the Flask dashboard
+python app.py
